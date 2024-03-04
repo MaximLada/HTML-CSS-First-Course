@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background: #FFFFF0;
+    color: #002e4d;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: slateblue;
+}
+
