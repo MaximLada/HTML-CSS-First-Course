@@ -15,3 +15,20 @@ body {
     color: slateblue;
 }
 
+.hobbies {
+    border: 1px solid rebeccapurple;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.job {
+    border: 1px solid rebeccapurple;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.svyaz {
+    border: 1px solid rebeccapurple;
+    background-color: aqua;
+    border-radius: 15px;
+}
