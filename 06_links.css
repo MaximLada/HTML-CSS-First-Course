@@ -1,0 +1,38 @@
+a {
+    color: red;
+    text-decoration: none;
+    /* transition: all .2s; */
+}
+
+a:hover {
+    color: blue;
+    /* font-size: 2rem; */
+}
+
+/* По этой ссылке уже мы заходили
+a:visited {
+    color: blueviolet;
+} */
+
+a:active {
+    color: orangered;
+}
+
+/* .css:hover {
+    background: rebeccapurple;
+} */
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    color: blue;
+}
