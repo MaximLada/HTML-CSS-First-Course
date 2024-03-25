@@ -3,172 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS COURSE</title>
-    <style>
-
-
-    </style>
-    <link rel="stylesheet" href="01_selectors.css">
-    <link rel="stylesheet" href="02_fonts.css">
-    <link rel="stylesheet" href="03_colors.css">
-    <link rel="stylesheet" href="04_borders.css">
-    <link rel="stylesheet" href="06_links.css">
-    <link rel="stylesheet" href="07_lists.css">
-    <link rel="stylesheet" href="08_display.css">
-    <link rel="stylesheet" href="09_positions.css">
+    <title>My page</title>
+    <link rel="stylesheet" href="cssdlyasborki.css">
 </head>
+
 <body>
+    <div class="container">
+        <div class="info">
 
-<nav class="navbar">
-    <ul>
-        <li><a href="#">item 1</a></li>
-        <li><a href="#">item 2</a></li>
-        <li><a href="#">item 3</a></li>
-        <li><a href="#">item 4</a></li>
-        <li><a href="#">item 5</a></li>
-    </ul>
-</nav>
+            <img src="photomy.JPG" alt="my avatar" class="avatar">
 
+            <div class="info-text">
 
-<header id="header" style="border: 1px solid grey;">
-    <h3>Это очень крутой сайт!</h3>
-</header>
+                <h1>Максим Лада</h1>
+                <p>Я QA в компании <strong>FERMASTUDIO</strong>  </p>
+                <p>Люблю <em> путешествовать и наслаждаться природой, программировать, проводить время вместе в дорогими мне людьми</em></p>
+                <h4><strong>Список социальных сетей:</strong></h4>
+                <a href="https://vk.com/maxlada" target="_blank">VK</a>
+                |
+                <a href="https://t.me/ladamaxim" target="_blank">TELEGRAM</a>
 
-<div class="card html">
-    <h2>HTML</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, doloribus.</p>
-</div>
+            </div>   
+        </div>   
 
-<div class="card">
-    <h2>Positions</h2>
-
-    <div class="playground">
-        <div class="pos-box"></div>
-    </div>
-</div>
-
-<div class="card">
-    <h2>Display</h2>
-
-    <ul class="inline">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ul>
-
-    <div class="box">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
-    </div>
-
-    <div class="box">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
-    </div>
-
-    <div class="box">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
-    </div>
-
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png  " alt="html" class="img">
-</div>
-
-<div class="card css">
-    <h2>CSS</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, doloribus.</p>
-</div>
-
-<div class="card">
-    <h2>Lists & Tables</h2>
-    
-    <ul class="list">
-        <li>Lorem, ipsum.</li>
-        <li>Officia, totam!</li>
-        <li>Optio, cum.</li>
-        <li>Eaque, optio!</li>
-        <li>Quae, architecto.</li>
-    </ul>
+        <div class="card hobbies">
+            <h1>Мои хобби</h1>
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>Новые технологии</li>
+                <li>Горные велосипеды</li>
+                <li>Компьютерные игры и фильмы</li>
+            </ol>
+        </div>    
 
 
-    <table class="table">
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-    </table>
-</div>
 
-<div class="card">
-    <h2>Links & Buttons</h2>
 
-    <p>
-        <a href="https://vk.com/feed" class="btn">Это очень важная ссылка</a>
-    </p>
+        <div class="card job">
+        <h1>Опыт работы</h1>
 
-    <p>
-        <button class="btn">Это кнопка!</button>
-    </p>
-</div>
+        <table class="table">
+            <!-- <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td>Покестан</td>
+                    <td>Повар</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>Ростелеком</td>
+                    <td>Инженер по сетям</td>
+                    <td>2022-2023</td>
+                </tr>
+                <tr>
+                    <td>FERMASTUDIO</td>
+                    <td>QA</td>
+                    <td>2023-2024</td>
+                </tr>
+            </tbody>
+            
+        </table>
+        </div>
 
-<div class="card">
-    <h2>Colors</h2>
 
-    <h3 class="color-1">Color 1</h3>
-    <h3 class="color-2">Color 2</h3>
-    <h3 class="color-3">Color 3</h3>
-    <h3 class="color-4">Color 4</h3>
-    <h3 class="color-5">Color 5</h3>
-</div>
 
-<div class="card">
-    <h2>Borders</h2>
-
-    <p class="border-1">Lorem ipsum dolor sit amet.</p>
-    <p class="border-2">Lorem ipsum dolor sit amet.</p>
-    <p class="border-3">Lorem ipsum dolor sit amet.</p>
-    <div class="circle">
+        <div class="card svyaz">
         
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" placeholder="Введите имя"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Введите email"> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                
+                <textarea id="message" placeholder="Введите сообщение..." cols="15" rows="10"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Отправить!</button>
+            <!-- <input class="btn" type="submit" value="Отправить!"> -->
+
+
+        </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
-</div>
-
-
 
 </body>
 </html>
