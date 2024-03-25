@@ -43,10 +43,10 @@ a:visited {
 }
 
 .avatar {
-    width: 200px;
+    width: 150px;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0,0,0, 0.5);
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .card {
